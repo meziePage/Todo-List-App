@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     background-color: #dadbd3;
     color: black;
+ 
     min-height: 100vh;
 }
 * {
@@ -129,7 +130,6 @@ form input {
     right: 0;
     padding: 1rem;
     pointer-events: none;
-    transition: all 0.3s ease;
     text-align: center;
 }
 /* .select:hover {
@@ -182,16 +182,5 @@ form input {
     .complete-btn {
         background-color: rgba(73, 204, 73);
     }
-    .select {
-        margin: 10px;
-        position: relative;
-        overflow: hidden;
-    }
-    select {
-        color: black;
-        width: 80%;
-        cursor: pointer;
-        padding: 10px;
-        font-weight: 600;
-    }
+    
     }
